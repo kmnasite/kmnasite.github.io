@@ -1,0 +1,14 @@
+body
+{font-family: 'Noto Sans', sans-serif;}
+strong
+{margin-left: 20pt;}
+h3
+{text-indent: 20px;}
+#t1
+{position: fixed;
+top: 15px;
+right: 25px;}
+#button
+{position: fixed;
+top: 60px; 
+right: 15px;}
