@@ -6,9 +6,44 @@ h3
 {text-indent: 20px;}
 #t1
 {position: fixed;
+height: 30px;
+width:220px;
 top: 15px;
-right: 25px;}
+right: 15px;
+ border:1px solid #aaa;
+ box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+}
 #button
-{position: fixed;
+{font: 10pt sans-serif;
+height: 30px;
+width:240px;
+position: fixed;
 top: 60px; 
-right: 15px;}
+right: 15px;
+text-align: center;
+}
+
+@media only screen and (max-width: 440px) {
+strong
+{margin-left: 10pt;}
+h3
+{text-indent: 10px;}
+#t1
+{position: fixed;
+height: 20px;
+width:110px;
+top: 8px;
+right: 8px;
+ border:1px solid #aaa;
+ box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+}
+#button
+{font: 7pt sans-serif;
+height: 20px;
+width:150px;
+position: fixed;
+top: 40px; 
+right: 8px;
+text-align: center;
+}  
+}
